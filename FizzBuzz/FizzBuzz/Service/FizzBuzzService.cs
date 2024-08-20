@@ -5,19 +5,25 @@ namespace FizzBuzz.Service
     {
         private const int DivisorThree = 3;
         private const int DivisorFive = 5;
+
+        private const string FizzBuzzResult = "FizzBuzz";
+        private const string FizzResult = "Fizz";
+        private const string BuzzResult = "Buzz";
+
+
         public string GetFizzBuzzResult(int number)
         {
             if (number % DivisorThree == 0 && number % DivisorFive == 0)
             {
-                return "FizzBuzz";
+                return FizzBuzzResult;
             }
             else if (number % DivisorThree == 0)
             {
-                return "Fizz";
+                return FizzResult;
             }
             else if (number % DivisorFive == 0)
             {
-                return "Buzz";
+                return BuzzResult;
             }
             else
             {
