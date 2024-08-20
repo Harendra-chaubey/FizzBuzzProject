@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FizzBuzz.Controllers.FizzBuzzController",
+    "Method": "Get",
+    "RelativePath": "FizzBuzz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputs",
+        "Type": "System.String[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
