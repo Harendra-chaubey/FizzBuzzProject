@@ -28,7 +28,7 @@ namespace FizzBuzz.Service
             else
             {
                 // Return the division attempts as required
-                return $"Divided {number} by {DivisorThree}\nDivided {number} by {DivisorFive}";
+                return $"Divided {number} by {DivisorThree} Divided {number} by {DivisorFive}";
             }
 
         }
